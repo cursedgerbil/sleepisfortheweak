@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="CC BY-NC 3.0"
+
+[[mods]]
+  modId="sleepisfortheweak"
+  version="1.0.0"
+  displayName="Sleep Is For The Weak"
+  authors="Gerbil"
+  description='''
+  A complete, fully customisable overhaul to Minecraft's sleeping mechanics.'''
+
+  [[dependencies.sleepisfortheweak]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+  [[dependencies.sleepisfortheweak]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
